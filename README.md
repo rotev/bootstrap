@@ -5,6 +5,9 @@ Bootstrap provides simple and flexible HTML, CSS, and Javascript for popular use
 
 To get started, checkout http://twitter.github.com/bootstrap!
 
+Changes in this Fork
+--------------------
+I intend to add multiline support for button groups, and may add RTL support in the future.
 
 
 Quick start
