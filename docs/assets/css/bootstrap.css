@@ -3125,6 +3125,34 @@ input[type="submit"].btn.btn-mini {
   filter: alpha(opacity=75);
 }
 
+.btn-group.two-in-row {
+  margin-left: 1px;
+}
+
+.btn-group.two-in-row > .btn {
+  width: 50%;
+  border-bottom-color: #eee;
+  border-top-right-radius: 0;
+}
+
+.btn-group.two-in-row > .btn:last-child,
+.btn-group.two-in-row > .btn:nth-last-child(2) {
+  border-bottom-color: #B3B3B3;
+}
+
+.btn-group.two-in-row > .btn:first-child {
+  margin-left: -1px;
+  border-bottom-left-radius: 0;
+}
+
+.btn-group.two-in-row > .btn:nth-last-child(2) {
+  border-bottom-left-radius: 4px;
+}
+
+.btn-group.two-in-row > .btn:nth-child(2) {
+  border-top-right-radius: 4px;
+}
+
 .alert {
   padding: 8px 35px 8px 14px;
   margin-bottom: 18px;

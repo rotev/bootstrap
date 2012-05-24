@@ -189,3 +189,34 @@
   }
 }
 
+
+
+// Optional: Spread buttons accross multiple lines.
+.btn-group.two-in-row {
+  
+  margin-left: 1px;
+
+  &> .btn {
+    width: 50%;
+    border-top-right-radius: 0px;
+
+    border-bottom-color: #eee;
+    &:last-child, &:nth-last-child(2) {
+      border-bottom-color: #B3B3B3;
+    }
+
+    &:first-child {
+      border-bottom-left-radius: 0px;
+      margin-left: -1px;
+    }
+
+    &:nth-last-child(2) {
+      border-bottom-left-radius: 4px;
+    }
+
+    // Second button will always have a top right rounded corner.
+    &:nth-child(2) {
+      border-top-right-radius: 4px;
+    }
+  }    
+}
